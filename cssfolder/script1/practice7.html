@@ -1,0 +1,32 @@
+<h2 id="mode"></h2>
+
+<script>
+    let x = '1989';
+    let otp = prompt('insert your password');
+    let count = 1;
+
+    if(otp===x){
+        console.log('correct pin')
+        alert('successful')
+        document.getElementById('mode').innerHTML="welcome to your portal"
+        
+    }
+    
+    else{ 
+
+        alert('incorrect pin');
+        while(count !==3){
+            otp= prompt('try again')
+            count++
+            if(otp===x){
+                alert('successful')
+                document.getElementById('mode').innerHTML="welcome to your portal"
+            }
+        }
+      
+
+    } 
+    
+   
+
+</script>

@@ -1,0 +1,24 @@
+<h2 id="demo"></h2>
+
+<script>
+    let num = Math.random()
+    let n = num * 100000
+    let x = Math.floor(n);
+    let count = 1;
+    let otp = prompt('enter the otp sent to you');
+    while(otp !==x){
+        console.log('wrong otp')
+       otp =  prompt('try again')
+        count++
+        if(count===3){
+            console.log('account blocked')
+           break;
+        }
+        else{
+           
+         console.log('try again')
+         document.getElementById('demo').innerHTML="you are logged out"
+            
+        }
+    }
+</script>

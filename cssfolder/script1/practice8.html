@@ -1,0 +1,28 @@
+<h2 id="acct"></h2>
+
+<script>
+    let x='1989'
+    let otp=prompt('insert your pin')
+    let count=1
+
+    if(otp===x){
+        console.log('correct pin')
+        alert('login successful')
+        document.getElementById('acct').innerHTML='welcome mr victor james'
+    }
+    else{
+        alert('pin incorrect, pls try again')
+        while(count!==3){
+            count++
+            otp=prompt('insert pin')
+            if(otp===x){
+        alert('login successful')
+        document.getElementById('acct').innerHTML='welcome mr victor james'
+            break;
+        }
+    }
+}
+if(count===3){
+    alert('pin incorrect,account blocked')
+} 
+</script>

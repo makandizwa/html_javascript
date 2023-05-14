@@ -1,0 +1,36 @@
+*{
+    padding: 0%;
+    margin: 0px;
+}
+.row img{
+    width: 250px;
+    height: 250px;
+    margin: 0px;
+}
+.row{
+    display: flex;
+}
+.e_commerce{
+    background-color: orangered;
+}
+.yexy{
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    flex-wrap: wrap;
+}
+.col:hover{
+    background-color: forestgreen;
+    border: 2px solid yellow;
+    align-self: initial;
+}
+h2 span{
+    color: red;
+    font-style: oblique;
+}
+p{
+    text-align: initial;
+}
+h1{
+    text-align: justify;
+}
